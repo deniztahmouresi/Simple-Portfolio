@@ -1,0 +1,23 @@
+
+.left-sidebar {
+    background-color: white;
+    position: fixed;
+    z-index: 1;
+    height: 100%;
+    overflow: auto;
+    width: 40%;
+}
+
+.profile-pic {
+    background-position: center;
+    background-image: url("../../img/profile_girl.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100%;
+}
+
+@media screen and (max-width: 600px ){
+    .hide-min{
+        display: none;
+    }
+}
