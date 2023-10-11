@@ -1,4 +1,3 @@
-
 .left-sidebar {
     background-color: white;
     position: fixed;
@@ -10,14 +9,14 @@
 
 .profile-pic {
     background-position: center;
-    background-image: url("../../img/profile_girl.jpeg");
+    background-image: url("../../img/profile_pic.jpeg");
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 100%;
 }
 
-@media screen and (max-width: 600px ){
-    .hide-min{
+@media screen and (max-width: 980px ){
+    .hide-min {
         display: none;
     }
 }

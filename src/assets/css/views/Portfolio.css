@@ -1,23 +1,49 @@
-
-.left-sidebar {
-    background-color: white;
-    position: fixed;
-    z-index: 1;
-    height: 100%;
-    overflow: auto;
-    width: 40%;
+.profile-img {
+    max-width: 100%;
+    width: 60%;
+    margin: auto;
+    height: auto;
+    vertical-align: middle;
+    border-style: none;
+    border-radius: 4px;
+    display: block;
 }
 
-.profile-pic {
-    background-position: center;
-    background-image: url("../../img/profile_girl.jpeg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    min-height: 100%;
+.photo-gallery {
+    padding: 0 8px;
+    margin: 0 -16px;
+    display: flex;
 }
 
-@media screen and (max-width: 600px ){
-    .hide-min {
+.thumbnail {
+    padding: 0 8px;
+    width: 49.999%;
+    float: left;
+}
+
+.photo {
+    width: 100%;
+    margin-bottom: 12px;
+    vertical-align: middle;
+    border-style: none;
+}
+
+@media screen and (min-width: 980px){
+    .profile-img{
         display: none;
+    }
+}
+
+@media screen and (max-width: 520px){
+    .profile-img{
+        width: 1000px;
+        aspect-ratio: auto;
+    }
+    .photo-gallery {
+        display: block;
+        margin: auto;
+    }
+    .thumbnail {
+        width: 100%;
     }
 }

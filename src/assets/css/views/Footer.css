@@ -1,0 +1,18 @@
+.footer {
+    margin: -24px;
+    color: #000;
+    background-color: #f1f1f1;
+    padding-top: 64px;
+    padding-bottom: 64px;
+    text-align: center;
+    font-size: 24px;
+    opacity: 0.60;
+}
+
+.social-media:hover {
+    opacity: 0.60;
+}
+
+.link:hover {
+    color: #4CAF50;
+}

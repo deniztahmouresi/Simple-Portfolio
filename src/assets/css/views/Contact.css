@@ -1,0 +1,23 @@
+.icon {
+    width: 1.28571429em;
+    text-align: center;
+    margin-right: 16px;
+    font-size: 32px;
+}
+
+.form-input {
+    border: 1px solid #ccc;
+    padding: 16px 8px;
+    display: block;
+    width: 100%;
+    overflow: visible;
+    font: inherit;
+    margin: 0;
+}
+
+.form-input:focus {
+    outline: none;
+    border: 2px solid #000;
+}
+
+
